@@ -7,33 +7,43 @@ setTimeout(timeUp, 1000 * 4);
 function fortySeconds() {
   $('#time-left').html('<h2>About 80 Seconds Left!</h2>');
   // alert('80 seconds left');
-  set timeleft = 80;
+  // set timeleft = 80;
+  $("timeleft").text("80");
 }
 
 function seventySeconds() {
   $('#time-left').html('<h2>About 10 Seconds Left!</h2>');
   // alert('10 seconds left');
-  set timeleft = 10;
+  // set timeleft = 10;
+   $("timeleft").text("10");
 }
 
 function timeUp(){
   audio.play();
   $('#time-left').html('<h2>Time\'s Up!</h2>');
   // alert('Time is up');
-  set timeleft = 1;
+  // set timeleft = 1;
+  $("timeleft").text("1");
 }
-var start = myFunction(startbutton){
-	function questions(){	
-	}
-}
-var timeleft = "time-left";
-function button(){
-	if true {
-		set (correct counter ++1)
+var start = myFunction(startbutton) 
+function questions() {	
+var timeleft = "timeleft";
+
+var button = function truebutton() {
+    document.getElementById("demo").innerHTML = console.log(true);
+var button = function falsebutton() {
+    document.getElementById("demo").innerHTML = console.log(false);
+      } 
+    }  
+var correct = +i;
+var incorrect = +i;
+var unanswered = +i;
+
+for (button = true
+		return correct +1
 	}else{
-		set (incorrect counter ++1)
+		return incorrect +1
 	}else{
-		set (uanswered counter ++1)
+		return uanswered +1
 	}
 });
-
